@@ -10,6 +10,54 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="251dp"
+        android:layout_height="198dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/meetingpic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="26dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="DXC Technology is the world's leading, independent, end-to-end IT services company, helping clients harness the power of innovation to thrive on change. " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="336dp"
+        android:layout_height="132dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="The company has an operating system that consists of 3 main areas: build, sell and deliver. As well as this, CLEAR values are put at the heart of our operations as well as a commitment to corporate responsibilty.   "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>
