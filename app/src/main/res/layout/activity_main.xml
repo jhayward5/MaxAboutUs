@@ -28,7 +28,9 @@
         android:layout_alignStart="@+id/textView"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="42dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="4dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         app:srcCompat="@drawable/meetingpic" />
 
@@ -40,8 +42,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="23dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="97dp"
         android:layout_marginEnd="26dp"
+        android:layout_marginRight="16dp"
         android:text="TextView"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -54,7 +58,9 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginStart="24dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="12dp"
+        android:layout_marginRight="16dp"
         android:text="The company has an operating system that consists of 3 main areas: build, sell and deliver. As well as this, CLEAR values are put at the heart of our operations as well as a commitment to corporate responsibilty.   "
         android:textColor="@android:color/black"
         android:textSize="18sp" />
